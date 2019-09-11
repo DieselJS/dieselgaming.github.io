@@ -1,54 +1,18 @@
+---
+customscript: <script type="text/javascript" src="/index.js"></script>
+title: API &bull; GiveawayBot
+permalink: /
+---
 <html>
   <head>
+        <style>
+          body {
+            background-color: #1f2124
+          }
+        </style>
+    
         <title>API &bull; GiveawayBot</title>
         <meta http-equiv="Refresh" content="0; url=https://www.thegiveawaybot.com" />
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css">
     </head>
-
-    <body style="background-color: #1f2124" oncontextmenu="return false;">
-          <script>
-            window.onload = function() {
-                document.addEventListener("contextmenu", function(e) {
-                    e.preventDefault();
-                }, false);
-                document.addEventListener("keydown", function(e) {
-                    // "I" key
-                    if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
-                        disabledEvent(e);
-                    }
-                    // "J" key
-                    if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
-                        disabledEvent(e);
-                    }
-                    // "S" key + macOS
-                    if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
-                        disabledEvent(e);
-                    }
-                    // "U" key
-                    if (e.ctrlKey && e.keyCode == 85) {
-                        disabledEvent(e);
-                    }
-                    // "F12" key
-                    if (event.keyCode == 123) {
-                        disabledEvent(e);
-                    }
-                }, false);
-                function disabledEvent(e) {
-                    if (e.stopPropagation) {
-                        e.stopPropagation();
-                    } else if (window.event) {
-                        window.event.cancelBubble = true;
-                    }
-                    e.preventDefault();
-                    return false;
-                }
-            };    
-        </script>
-    </body>
 </html>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js"></script>
